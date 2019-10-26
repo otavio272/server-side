@@ -5,7 +5,7 @@ var postsVagas = require('../services/vagas');
 //Home
 router.get('/', function(req, res, next) {
 
-  res.render('index', { title: 'Associação Hunter'});
+  res.render('index', { title: 'Empresa Legal'});
 });
 
 //Vagas
